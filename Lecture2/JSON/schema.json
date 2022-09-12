@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "MyFileFormat",
+  "description": "The format for my program",
+  "type": "object",
+  "properties": {
+    "width": {
+      "description": "The width of the map",
+      "type": "integer"
+    },
+    "height": {
+      "description": "the height of the map",
+      "type": "integer"
+    },
+    "map_content": {
+      "description": "The map data",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "x_pos": {
+            "description": "the xposition",
+            "type": "integer"
+          },
+          "y_pos": {
+            "description": "the yposition",
+            "type": "integer"
+          },
+          "value ": {
+            "description": "the value on the map",
+            "type": "number"
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "width",
+    "height"
+  ]
+}

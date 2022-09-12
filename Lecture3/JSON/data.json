@@ -1,0 +1,16 @@
+{
+  "width": 10,
+  "height": 10,
+  "map_contents": [
+    {
+      "x_pos": 2,
+      "y_pos": 3,
+      "value": 2.2
+    },
+    {
+      "x_pos": 3,
+      "y_pos": 4,
+      "value": 22.2
+    }
+  ]
+}

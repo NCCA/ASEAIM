@@ -1,10 +1,13 @@
 #!/usr/bin/env python
 
 import cmath
+from typing import Any, Tuple
 
 
 # Note float type hint will also support int as a number
-def quadratic_roots(a, b, c):
+def quadratic_roots(
+    a: float, b: float, c: float
+) -> Tuple[Any[float, complex], Any[float, complex]]:
     """calculate the quadratic roots of a, b, and c are coefficient and real numbers and also a ≠ 0.
     If a is equal to 0 that equation is not valid quadratic equation.
 
